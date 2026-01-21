@@ -1,7 +1,7 @@
 # CHECKLIST DE REVISAO
 
 > **Use este documento para verificar se tudo foi implementado corretamente**
-> **Versao:** 1.1 | **Data:** 2026-01-21
+> **Versao:** 1.2 | **Data:** 2026-01-21
 
 ---
 
@@ -24,6 +24,7 @@
 - [ ] **Light mode CSS** - Bloco completo de overrides no `<style>`
 - [ ] **Titulo modulo** - Usando `text-2xl font-bold`
 - [ ] **TODOS modulos completos** - TODOS os modulos (1.1 a 1.8) devem ter topicos expandiveis, NAO apenas header+botao
+- [ ] **Modal presente** - Botao "Ver em Modal" + HTML dos modais + JavaScript (openModal/closeModal)
 
 ## 2. NAVIGATION
 
@@ -206,6 +207,9 @@ Verificar se a trilha usa as cores corretas conforme o numero:
 - [ ] Theme toggle inicializa icone correto
 - [ ] Theme toggle salva preferencia no localStorage
 - [ ] Theme toggle alterna classe `dark` no html
+- [ ] Funcao `openModal()` presente (pagina de trilha)
+- [ ] Funcao `closeModal()` presente (pagina de trilha)
+- [ ] Modal fecha com tecla ESC
 
 ---
 
@@ -247,6 +251,7 @@ Data: ____/____/____
 - [ ] Light mode CSS
 - [ ] Titulo text-2xl
 - [ ] Modulos completos (index)
+- [ ] Modal funcionando (index)
 
 ### Estrutura
 - [ ] Navigation completa
@@ -277,8 +282,9 @@ Data: ____/____/____
 | Cor errada | Comparar com tabela de cores da trilha |
 | Topico sem 3 secoes | Abrir cada topico e verificar |
 | Modulos incompletos no index | Verificar se TODOS os modulos tem topicos expandiveis (nao apenas header+botao) |
+| Modal faltando | Verificar botao "Ver em Modal", HTML dos modais e funcoes openModal/closeModal |
 
 ---
 
 **Ultima atualizacao:** 2026-01-21
-**Versao:** 1.1
+**Versao:** 1.2
