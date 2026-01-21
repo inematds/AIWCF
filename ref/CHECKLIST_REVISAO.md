@@ -1,7 +1,7 @@
 # CHECKLIST DE REVISAO
 
 > **Use este documento para verificar se tudo foi implementado corretamente**
-> **Versao:** 1.2 | **Data:** 2026-01-21
+> **Versao:** 1.3 | **Data:** 2026-01-21
 
 ---
 
@@ -25,6 +25,7 @@
 - [ ] **Titulo modulo** - Usando `text-2xl font-bold`
 - [ ] **TODOS modulos completos** - TODOS os modulos (1.1 a 1.8) devem ter topicos expandiveis, NAO apenas header+botao
 - [ ] **Modal presente** - Botao "Ver em Modal" + HTML dos modais + JavaScript (openModal/closeModal)
+- [ ] **2 secoes de modulos** - Primeiro cartoes simples (grid 2 cols), depois cartoes detalhados com topicos
 
 ## 2. NAVIGATION
 
@@ -283,8 +284,9 @@ Data: ____/____/____
 | Topico sem 3 secoes | Abrir cada topico e verificar |
 | Modulos incompletos no index | Verificar se TODOS os modulos tem topicos expandiveis (nao apenas header+botao) |
 | Modal faltando | Verificar botao "Ver em Modal", HTML dos modais e funcoes openModal/closeModal |
+| Faltando secao de cartoes simples | Index deve ter: 1) Cartoes simples (grid 2 cols) 2) Cartoes detalhados com topicos |
 
 ---
 
 **Ultima atualizacao:** 2026-01-21
-**Versao:** 1.2
+**Versao:** 1.3
