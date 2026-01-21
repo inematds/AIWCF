@@ -1,7 +1,7 @@
 # CHECKLIST DE REVISAO
 
 > **Use este documento para verificar se tudo foi implementado corretamente**
-> **Versao:** 1.4 | **Data:** 2026-01-21
+> **Versao:** 1.5 | **Data:** 2026-01-21
 
 ---
 
@@ -225,6 +225,45 @@ Verificar se a trilha usa as cores corretas conforme o numero:
 
 ---
 
+# CHECKLIST PAGINA DE SLIDES
+
+## Estrutura
+- [ ] Pasta `/curso/trilhaX/slides/` criada
+- [ ] Arquivo `slides-X-X.html` para cada modulo com imagens
+- [ ] Imagens referenciadas de `/doc/XX/` (pasta corresponde ao modulo)
+
+## Layout
+- [ ] Header com badge "SLIDES DO MODULO X.X"
+- [ ] Stats: quantidade de slides, tempo estimado, tipo "Visual"
+- [ ] Cards de slide com numero em circulo + titulo
+- [ ] Imagem clicavel para zoom (modal)
+- [ ] Navegacao entre slides e voltar ao modulo
+
+## Conteudo
+- [ ] **TEXTO COMPLETO E DETALHADO** - Cada slide deve ter descricao rica explicando o conteudo visual
+- [ ] Contextualizacao do que esta sendo mostrado
+- [ ] Conceitos-chave destacados em negrito
+- [ ] Conexao com o conteudo do modulo
+
+## Funcionalidade
+- [ ] Modal de zoom funcionando (clique na imagem)
+- [ ] Fechar modal com ESC
+- [ ] Theme toggle funcionando
+- [ ] Light mode renderizando
+
+## Botoes (onde adicionar)
+- [ ] Botao roxo "📊 Ver Slides" na pagina do modulo (ao lado de navegacao)
+- [ ] Botao roxo "📊 Slides" no card detalhado do index da trilha
+
+## Mapeamento de Pastas
+| Pasta doc | Modulo |
+|-----------|--------|
+| doc/11 | 1.1 |
+| doc/12 | 1.2 |
+| doc/13 | 1.3 |
+
+---
+
 # VERIFICACAO FINAL
 
 Antes de publicar, responda:
@@ -292,4 +331,4 @@ Data: ____/____/____
 ---
 
 **Ultima atualizacao:** 2026-01-21
-**Versao:** 1.4
+**Versao:** 1.5
