@@ -1,7 +1,7 @@
 # CHECKLIST DE REVISAO
 
 > **Use este documento para verificar se tudo foi implementado corretamente**
-> **Versao:** 1.0 | **Data:** 2026-01-20
+> **Versao:** 1.1 | **Data:** 2026-01-21
 
 ---
 
@@ -23,6 +23,7 @@
 - [ ] **INEMA.CLUB presente** - Link com `text-sky-400` ao lado do logo
 - [ ] **Light mode CSS** - Bloco completo de overrides no `<style>`
 - [ ] **Titulo modulo** - Usando `text-2xl font-bold`
+- [ ] **TODOS modulos completos** - TODOS os modulos (1.1 a 1.8) devem ter topicos expandiveis, NAO apenas header+botao
 
 ## 2. NAVIGATION
 
@@ -49,6 +50,8 @@
   - [ ] Nivel
 
 ## 4. CARDS DE MODULO
+
+**ATENCAO:** Verificar se TODOS os 8 modulos estao completos (nao apenas alguns com topicos e outros so com header+botao)
 
 Para cada modulo verificar:
 
@@ -243,6 +246,7 @@ Data: ____/____/____
 - [ ] INEMA.CLUB
 - [ ] Light mode CSS
 - [ ] Titulo text-2xl
+- [ ] Modulos completos (index)
 
 ### Estrutura
 - [ ] Navigation completa
@@ -272,8 +276,9 @@ Data: ____/____/____
 | Titulo pequeno | Verificar se h3 do modulo tem `text-2xl` |
 | Cor errada | Comparar com tabela de cores da trilha |
 | Topico sem 3 secoes | Abrir cada topico e verificar |
+| Modulos incompletos no index | Verificar se TODOS os modulos tem topicos expandiveis (nao apenas header+botao) |
 
 ---
 
-**Ultima atualizacao:** 2026-01-20
-**Versao:** 1.0
+**Ultima atualizacao:** 2026-01-21
+**Versao:** 1.1
